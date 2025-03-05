@@ -115,7 +115,6 @@ If you are interested in improving or adding new ones, please feel free to contr
 
 Contributions of any kind welcome!
 
-Instructions : ... work in progress ...
 
 ## Some technical notes
 
