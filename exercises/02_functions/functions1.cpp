@@ -7,12 +7,12 @@
 // even after you already figured it out. 
 
 
+void callme(){}
 
 int function1() {
   callme();
   return 0;
 }
-
 
 #include <catch2/catch.hpp>
 

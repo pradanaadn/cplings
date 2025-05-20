@@ -14,7 +14,7 @@ void callme(int x) {
 }
 
 int function_usage() {
-  callme();
+  callme(4);
   return 0;
 }
 

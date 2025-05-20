@@ -40,7 +40,8 @@ std::string test_danger_loop(uint32_t  query_idx) { // Use safe<> type
     words.push_back(secret_key); // Copies a secret at the end of the vector
 
     std::string response;
-    if (len - query_idx > 0) { // Bound checking for protecting secret
+    int8_t check = len - query_idx; // Check if the index is out of bounds
+    if (check > 0) { // Bound checking for protecting secret
         response = words.at(query_idx);
     }
     return response;
